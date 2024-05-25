@@ -345,7 +345,7 @@ public void run() {
         //in bộ đếm mạng
         drawLives(g2);
         //Draw bonusEnemy
-        if (this.newBonusEnemy && this.r.nextInt(2000) == 250 ) {
+        if (this.newBonusEnemy && this.r.nextInt(1000) == 250 ) {
             this.bonusEnemy = new BonusEnemy(-50, 30, this);
             this.bonusEnemyList.add(this.bonusEnemy);
             this.newBonusEnemy = false;
