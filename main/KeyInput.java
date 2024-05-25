@@ -28,6 +28,7 @@ public class KeyInput implements KeyListener  {
             
             if (code == KeyEvent.VK_W||code == KeyEvent.VK_UP) {
                 p.ui.comN--;
+                change=true;
                 if(p.ui.comN<0){
                     p.ui.comN=2;
                 }
